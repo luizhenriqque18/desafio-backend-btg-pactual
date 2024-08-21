@@ -51,4 +51,8 @@ public class OrderEntity {
     public List<OrderItemEntity> getItems() {
         return items;
     }
+
+    public void setItems(List<OrderItemEntity> items) {
+        this.items = items;
+    }
 }
