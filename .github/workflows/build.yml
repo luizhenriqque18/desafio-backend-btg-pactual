@@ -20,11 +20,11 @@ jobs:
         #Check-out your repository under $GITHUB_WORKSPACE, so your workflow can access it
       - uses: actions/checkout@v2
 
-        #Set up JDK 8
+        #Set up JDK 17
       - name: Set up JDK
         uses: actions/setup-java@v1
         with:
-          java-version: '8'
+          java-version: '17'
 
       #Set up Gradle cache
       - name: Cache Gradle packages
@@ -55,7 +55,7 @@ jobs:
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
 
-        #Set up JDK 11
+        #Set up JDK 17
       - name: Set up JDK
         uses: actions/setup-java@v1
         with:
