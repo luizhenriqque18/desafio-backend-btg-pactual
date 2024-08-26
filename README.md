@@ -1,6 +1,12 @@
 # Desafio Engenheiro de software - BTG Pactual
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/summary/new_code?id=luizhenriqque18_desafio-backend-btg-pactual)
 
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=luizhenriqque18_order-ws&metric=coverage)](https://sonarcloud.io/summary/new_code?id=luizhenriqque18_order-ws) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=luizhenriqque18_order-ws&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=luizhenriqque18_order-ws) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=luizhenriqque18_order-ws&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=luizhenriqque18_order-ws) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=luizhenriqque18_order-ws&metric=bugs)](https://sonarcloud.io/summary/new_code?id=luizhenriqque18_order-ws) [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=luizhenriqque18_order-ws&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=luizhenriqque18_order-ws) [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=luizhenriqque18_order-ws&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=luizhenriqque18_order-ws)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=luizhenriqque18_desafio-backend-btg-pactual&metric=coverage)](https://sonarcloud.io/summary/new_code?id=luizhenriqque18_desafio-backend-btg-pactual) 
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=luizhenriqque18_desafio-backend-btg-pactual&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=luizhenriqque18_desafio-backend-btg-pactual) 
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=luizhenriqque18_desafio-backend-btg-pactual&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=luizhenriqque18_desafio-backend-btg-pactual)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=luizhenriqque18_desafio-backend-btg-pactual&metric=bugs)](https://sonarcloud.io/summary/new_code?id=luizhenriqque18_desafio-backend-btg-pactual) 
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=luizhenriqque18_desafio-backend-btg-pactual&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=luizhenriqque18_desafio-backend-btg-pactual) 
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=luizhenriqque18_desafio-backend-btg-pactual&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=luizhenriqque18_desafio-backend-btg-pactual)
 
 ## Instruções
 
