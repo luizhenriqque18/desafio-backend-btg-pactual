@@ -37,7 +37,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle
 
-        #Run Tests
+      #Run Tests
+      - name: Run Tests
+        run: ./gradlew clean build
+
+      #Run Tests
       - name: Run Tests
         run: ./gradlew test
 
