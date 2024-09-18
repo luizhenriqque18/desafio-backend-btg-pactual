@@ -1,8 +1,6 @@
 package io.github.luizhenriqque18.order_ws.service;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.calls;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 

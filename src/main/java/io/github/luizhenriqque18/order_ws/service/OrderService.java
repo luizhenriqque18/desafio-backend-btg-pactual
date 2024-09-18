@@ -3,12 +3,13 @@ package io.github.luizhenriqque18.order_ws.service;
 import org.springframework.stereotype.Service;
 
 import io.github.luizhenriqque18.order_ws.entity.OrderEntity;
-import io.github.luizhenriqque18.order_ws.entity.OrderItemEntity;
+import io.github.luizhenriqque18.order_ws.entity.OrderItem;
 import io.github.luizhenriqque18.order_ws.listener.dto.OrderCreatedEvent;
 import io.github.luizhenriqque18.order_ws.listener.dto.OrderItemEvent;
 import io.github.luizhenriqque18.order_ws.repository.OrderRepository;
 
 import java.util.List;
+import java.util.Set;
 import java.math.BigDecimal;
 
 @Service
@@ -38,7 +39,11 @@ public class OrderService {
         .orElse(BigDecimal.ZERO);
     }
 
-    private List<OrderItemEntity> getTotal(List<OrderItemEvent> listForDto) {
-        return listForDto.stream().map(OrderItemEntity::convertToEntity).toList();
+    private List<OrderItem> getTotal(List<OrderItemEvent> listForDto) {
+        return listForDto.stream().map(OrderItem::convertToEntity).toList();
+    }
+
+    public Set<OrderEntity> findAllByCustomerId(Long id) {
+        return repository.findAllByCustomerId(id);
     }
 }

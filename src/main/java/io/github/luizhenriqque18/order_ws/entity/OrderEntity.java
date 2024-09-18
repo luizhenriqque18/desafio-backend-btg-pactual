@@ -22,7 +22,7 @@ public class OrderEntity {
     @Field(targetType = FieldType.DECIMAL128)
     private BigDecimal total;
     
-    private List<OrderItemEntity> items;
+    private List<OrderItem> items;
 
     public Long getOrderId() {
         return orderId;
@@ -48,11 +48,11 @@ public class OrderEntity {
         this.total = total;
     }
 
-    public List<OrderItemEntity> getItems() {
+    public List<OrderItem> getItems() {
         return items;
     }
 
-    public void setItems(List<OrderItemEntity> items) {
+    public void setItems(List<OrderItem> items) {
         this.items = items;
     }
 }

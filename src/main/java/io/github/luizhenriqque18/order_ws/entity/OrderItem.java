@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.FieldType;
 
 import io.github.luizhenriqque18.order_ws.listener.dto.OrderItemEvent;
 
-public class OrderItemEntity {
+public class OrderItem {
 
     private String product;
 
@@ -17,10 +17,10 @@ public class OrderItemEntity {
     private BigDecimal price;
 
 
-    public OrderItemEntity(String produto, Integer quantidade, BigDecimal preco) {
-        this.product = produto;
-        this.quantity = quantidade;
-        this.price = preco;
+    public OrderItem(String product, Integer quantity, BigDecimal price) {
+        this.product = product;
+        this.quantity = quantity;
+        this.price = price;
     }
 
     public String getProduct() {
@@ -47,7 +47,7 @@ public class OrderItemEntity {
         this.price = price;
     }
 
-    public static OrderItemEntity convertToEntity(OrderItemEvent dto) {
-        return new OrderItemEntity(dto.produto(), dto.quantidade(), dto.preco());
+    public static OrderItem convertToEntity(OrderItemEvent dto) {
+        return new OrderItem(dto.produto(), dto.quantidade(), dto.preco());
     }
 }
